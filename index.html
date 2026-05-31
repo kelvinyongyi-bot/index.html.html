@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kelvin Yong - 个人主页</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<video autoplay muted loop playsinline>
+    <source src="assets/video/background.mp4" type="video/mp4">
+</video>
+
+<div class="content">
+    <audio id="bgm" loop>
+        <source src="assets/audio/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1>Kelvin Yong</h1>
+    <h2>个人主页</h2>
+</div>
+
+<div class="bottom-text">
+百分百的死亡游戏从来不害怕，因为在最后的30秒大脑会为您播放美好人生的结算
+</div>
+
+<script>
+document.addEventListener('click', function () {
+    document.getElementById('bgm').play();
+}, { once: true });
+</script>
+
+</body>
+</html>
